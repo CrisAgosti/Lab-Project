@@ -1,0 +1,601 @@
+* {
+  margin: 0px ;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+.logolab {
+  width: 420px; 
+  height: 200px; 
+  display: block; 
+         
+  
+}
+
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.822);
+  width: 100%; 
+  height: 35px;            
+  text-align: center;
+  position: absolute;
+  bottom: 0 0;
+  
+}
+
+
+
+
+.titulo {
+padding: 20px;
+position: relative;
+background-color: #94cfcf;
+}
+
+.titulo__nombrelab {
+display: inline-block;
+} 
+
+.titulo__telefonolab {
+display: inline-block;
+position: absolute;
+top: 0px;
+left: 64%;
+font-size: 15px;
+color:#fff;
+}
+
+.portada {
+  margin: 0 auto;
+  width: 100%;
+  height: auto
+}
+
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+   .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: teal;
+    flex-wrap: wrap;
+    color: #fff;
+    overflow-x: auto;
+   
+     
+   }
+   
+   
+   .nav__links a {
+    color: #fff;
+    
+   }
+   
+   .nav__barra {
+    display: flex;
+    gap: 6em;
+    font-size: 18px;
+    
+   }
+   .nav__barra li:hover {
+    background-color: #94cfcf;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   
+   }
+   .nav__barra li {
+    padding: 5px 10px;
+    
+   }
+
+
+   /*inicio de lineas esclusivas de index.html*/
+
+   .unoticias {
+    
+    display: flex ;
+    align-self: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 30px;
+    background-color: teal;
+    color: #fff;
+    width: 100%;
+  }
+
+  #noticcolor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+   
+    background-color: rgb(212, 230, 233);
+   
+  }
+
+  .unoticias__foto1 {
+    align-self: center;
+    justify-self: center;
+  }
+
+.unoticias__foto1 img{
+
+  width: 300px;
+}
+  .unoticias__foto2 {
+    padding: 20px;
+    align-self: center;
+    justify-self: center;
+    
+  }
+  .unoticias__foto2 img{
+    width: 300px; 
+  }
+  
+  .unoticias__desc1 {
+    font-size: 20px;
+    padding: 30px;
+    width: 75%;
+    justify-self: center;
+
+  }
+  .unoticias__desc2 {
+  font-size: 20px;
+  padding: 30px;
+  width: 75%;
+  justify-self: center;
+  }
+  
+ /*fin de lineas esclusivas de index.html*/
+  
+ 
+ #redes {
+    display:grid;
+    grid-template-areas: 
+                        "redes info"
+                        "peec mapa"
+                        ;
+    grid-template-columns: 500px 1fr;
+    grid-template-rows: 300px 350px;
+    background-color: #94cfcf;
+    width: 100%;
+    
+  }
+
+  .redes__iconos{
+    padding-top: 20px;
+    grid-area: redes; 
+    font-size: 30px;
+    color:teal
+  }
+.redes__iconos img{
+  padding: 20px;
+  width: 100px;
+  
+ 
+}
+  .redes__lista{
+    grid-area: info;
+    font-size: 30px;
+    color: teal;
+    justify-self: flex-start;
+    align-self: center;
+    
+  }
+
+  .redes__lista li{
+    font-size: 20px;
+    padding-top: 10px;
+  }
+    
+  .redes__lista a {
+    color: #fff;
+    
+  }
+  .redes__lista li:hover {
+    background-color: rgb(212, 230, 233);
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+    
+
+  .redes__fb {
+  grid-area: peec;
+  width: 250px;
+  align-self:flex-end;
+  padding: 30px;
+  }
+ 
+ .redes__mapa{
+  grid-area: mapa;
+  align-self: center;
+  justify-self: center;
+  
+  }   
+ 
+  /*  inicio de lineas correspondientes a contacto.html*/
+  
+  
+  
+  #fcontacto {
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(212, 230, 233) ;
+    
+  }
+
+  #fcontacto input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+    
+  }
+
+  #fcontacto label {
+    font-size: 20px;
+  }
+  
+  .fcontacto__mensaje {
+    overflow: scroll;
+    resize: none;
+    width: 35vw;
+    height: 10vw;
+  }
+    
+/*  fin de lineas correspondientes a contacto.html*/
+
+/*  Inicio de lineas correspondientes a Nosotros.html*/
+  #midnosotros {
+    display: grid;
+    grid-template-columns: 600px auto  ;
+    grid-template-rows: 100px auto;
+    grid-template-areas: "imagen titulo"
+                         "imagen texto"
+      ;
+    background-color: rgb(212, 230, 233);
+    height: 600px;
+    width: fit-content;
+    }
+
+.nosotros__imagen {
+  grid-area: imagen;
+  width: 500px;
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 50px;
+}
+
+.nosotros__titulo {
+  grid-area: titulo;
+  align-self: center;
+  font-size:  50px;
+  font-family:sans-serif;
+  color: teal
+  
+  ;
+  }
+
+  .nosotros__texto {
+  grid-area: texto;
+  justify-self:flex-start ;
+  width: 75%;
+  font-family: 'Times New Roman', Times, serif;
+ 
+  
+  }
+  @media screen and (max-width: 1440px){
+   
+    .nosotros__texto {
+      grid-area: texto;
+      font-size: 20px;
+      
+    }
+}
+  }
+
+
+
+  @media screen and (max-width: 1024px){
+ 
+    #midnosotros{
+      grid-template-columns: 400px 1fr;
+     height: 500px;
+      }
+  
+  
+      .nosotros__imagen {
+        grid-area: imagen;
+        width: 400px;
+        padding: 10px;
+        padding-bottom: 70px;
+      }
+  
+      .nosotros__titulo {
+        grid-area: titulo;
+        font-size: 30px;
+        
+        padding: 10px;
+        align-self: flex-end;
+  
+      }
+  
+      .nosotros__texto {
+        grid-area: texto;
+        font-size: 100%;
+        justify-self: flex-start ;
+        width: 90%;
+        padding-left: 10px;
+      }
+  }
+
+
+
+  @media screen and (max-width: 768px){
+
+    
+    .logolab{
+      width: 300px; 
+      height: 140px; 
+     
+    }
+  
+    .navbar {
+      flex-direction: column;
+      padding:15px;
+     }
+     
+     .nav__barra {
+      font-size: 15px;
+     }
+  
+  /*  index.html*/    
+  #noticcolor{
+  
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:  250px 1fr;
+  }
+  .unoticias{
+   font-size: 20px;
+   padding: 20px;
+  }
+  
+  .unoticias__foto1 img{
+  width: 200px;
+  
+  }
+  
+  .unoticias__foto2 img{
+  width: 200px; 
+  }
+  
+  .unoticias__desc1 {
+    font-size: 18px;
+    padding: 8px;
+    width: 90%;
+    justify-self: center;
+  
+  }
+  .unoticias__desc2 {
+  font-size: 18px;
+  padding: 8px;
+  width: 90%;
+  justify-self: center;
+  }
+  
+  /*  index.html*/
+ 
+ 
+  /*  Nosotros.html*/
+     #midnosotros{
+      display: grid;
+      grid-template-columns: 1fr  ;
+      grid-template-rows: 100px auto;
+      grid-template-areas: "imagen titulo"
+                           "imagen texto"
+        ;
+      background-color: rgb(212, 230, 233);
+      height: 600px;
+      width: fit-content;
+      }
+  
+  
+      .nosotros__imagen {
+        grid-area: imagen;
+        width: 370px;
+        padding: 30px;
+      }
+  
+      .nosotros__titulo {
+        grid-area: titulo;
+        font-size: 25px;
+        justify-self: center;
+        padding: 10px;
+        align-self: flex-end;
+  
+      }
+  
+      .nosotros__texto {
+        grid-area: texto;
+        font-size: 100%;
+        justify-self: flex-start ;
+        width: 100%;
+      }
+  /*  Nosotros.html*/* 
+  #redes {
+    
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 250px 350px;
+   
+  }
+  .redes__fb {
+  width: 200px;
+  
+  }
+
+  
+  footer {
+  font-size: 15px;  
+  height: 10px;
+  }
+  
+  }
+
+
+
+
+
+
+  @media screen and (max-width: 425px){
+
+    
+    .logolab{
+      width: 210px; 
+      height: 100px; 
+      display: block; 
+    }
+
+    .titulo__telefonolab{
+      font-size: 10px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      padding:10px;
+     }
+     
+     .nav__barra {
+       font-size: 12px;
+     }
+
+ /*  index.html*/    
+ #noticcolor{
+  
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:  160px 1fr;
+ }
+ .unoticias{
+   font-size: 20px;
+   padding: 20px;
+ }
+
+.unoticias__foto1 img{
+  width: 100px;
+
+}
+
+.unoticias__foto2 img{
+  width: 100px; 
+  }
+  
+  .unoticias__desc1 {
+    font-size: 15px;
+    padding: 5px;
+    width: 90%;
+    justify-self: center;
+
+  }
+  .unoticias__desc2 {
+  font-size: 15px;
+  padding: 5px;
+  width: 90%;
+  justify-self: center;
+  }
+
+ /*  index.html*/
+/*  Nosotros.html*/
+     #midnosotros{
+      display: grid;
+      grid-template-columns: 1fr  ;
+      grid-template-rows: 100px auto;
+      grid-template-areas: "imagen titulo"
+                           "imagen texto"
+        ;
+      background-color: rgb(212, 230, 233);
+      height: 600px;
+      width: fit-content;
+      }
+
+
+      .nosotros__imagen {
+        display: none;
+      }
+
+      .nosotros__titulo {
+        font-size: 25px;
+        justify-self: center;
+
+      }
+
+      .nosotros__texto {
+        font-size: 80%;
+        justify-self: center ;
+      }
+/*  Nosotros.html*/
+
+      
+ #redes {
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 300px 200px;
+}
+
+.redes__iconos{
+  font-size: 25px;
+  align-self: center;
+  padding: 20px;
+
+}
+
+.redes__iconos img{
+width: 75px;
+}
+
+.redes__lista{
+font-size: 25px;
+  
+}
+
+.redes__lista li{
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+
+.redes__fb {
+width: 200px;
+
+}
+
+.redes__mapa{
+ display: none;
+   }
+  
+ /* contacto.html*/ 
+   .fcontacto__mensaje {
+    
+    width: 45vw;
+    height: 25vw;
+  }
+
+/* contacto.html*/ 
+
+footer {
+font-size: 10px;  
+height: 10px;
+}
+
+
+
+
+
+
+
