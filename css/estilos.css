@@ -118,41 +118,6 @@ li {
     list-style: none;
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 20px;
-    background: rgb(8,47,46);
-    background: linear-gradient(90deg, rgba(8,47,46,1) 0%, rgba(0,128,128,1) 40%, rgba(94,219,219,0.98) 100%);
-    flex-wrap: wrap;
-    color: #fff;
-    overflow-x: auto;
-  
-}
-
-
-.nav__links a {
-    color: #fff;
-    
-}
-
-.nav__barra {
-    display: flex;
-    gap: 6em;
-    font-size: 18px;
-    
-  }
-  .nav__barra li:hover {
-    background-color: #94cfcf;
-    border-radius: 5px;
-    transition: 0.3s ease;
-  
-  }
-  .nav__barra li {
-    padding: 5px 10px;
-   
-  }
 
 
   /*inicio de lineas esclusivas de index.html*/
