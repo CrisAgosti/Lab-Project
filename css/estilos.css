@@ -5,6 +5,9 @@
   
 }
  
+.fondo {
+  background: whitesmoke;
+}
   /*inicio de lineas esclusivas de la pantalla de carga*/
   .contenedor_carga{
     background-color: #94cfcf;
@@ -101,6 +104,12 @@ li {
     list-style: none;
 }
 
+.navhover :hover{
+  background-color: rgb(212, 230, 233);
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
 
   /*inicio de lineas esclusivas de index.html*/
 
@@ -117,48 +126,15 @@ li {
     width: 100%;
   }
 
-  #noticcolor{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:  1fr 1fr;
-
-    background-color: rgb(212, 230, 233);
-
-  }
-
-  .unoticias__foto1 {
-    align-self: center;
-    justify-self: center;
-  }
-
-.unoticias__foto1 img{
-
-  width: 300px;
-}
-  .unoticias__foto2 {
-    padding: 20px;
-    align-self: center;
-    justify-self: center;
-    
-  }
-  .unoticias__foto2 img{
-    width: 300px; 
-  }
+ .noticias-texto {
+  padding: 50px;
   
-  .unoticias__desc1 {
-    font-size: 20px;
-    padding: 30px;
-    width: 75%;
-    justify-self: center;
+ }
 
-  }
-  .unoticias__desc2 {
-  font-size: 20px;
-  padding: 30px;
-  width: 75%;
-  justify-self: center;
-  }
-  
+ .noticia-imagen {
+   width: 300px;
+ }
+
 /*fin de lineas esclusivas de index.html*/
   
 
@@ -303,6 +279,28 @@ li {
 
   
   }
+/*  fin de lineas correspondientes a nosotros.html*/
+
+/*  osociales.html*/
+  .osociales-boton{
+    border-color: #94cfcf;
+    border-style: solid;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+.osociales-boton a{
+  color: black;
+
+}
+  .osociales-boton :hover {
+  background-color:#94cfcf;
+  transition: 0.3s ease;
+  }
+/* ind.html*/
+  
+
+
+
   @media screen and (max-width: 1440px){
 
     .nosotros__texto {
@@ -352,38 +350,10 @@ li {
 
   @media screen and (max-width: 768px){
 
-  /*  index.html*/    
-  #noticcolor{
+  /*  index.html*/   
   
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows:  250px 1fr;
-  }
-  .unoticias{
-   font-size: 20px;
-   padding: 20px;
-  }
-  
-  .unoticias__foto1 img{
-  width: 200px;
-  
-  }
-  
-  .unoticias__foto2 img{
-  width: 200px; 
-  }
-  
-  .unoticias__desc1 {
-    font-size: 18px;
-    padding: 8px;
-    width: 90%;
-    justify-self: center;
-  
-  }
-  .unoticias__desc2 {
-  font-size: 18px;
-  padding: 8px;
-  width: 90%;
-  justify-self: center;
+  .noticia-imagen {
+    width: 250px;
   }
   
   /*  index.html*/
@@ -457,40 +427,12 @@ li {
     }
   
 
- /*  index.html*/    
- #noticcolor{
+ /*  index.html*/  
   
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows:  160px 1fr;
- }
- .unoticias{
-   font-size: 20px;
-   padding: 20px;
- }
-
-.unoticias__foto1 img{
-  width: 100px;
-
+ .noticia-imagen {
+  width: 200px;
 }
-
-.unoticias__foto2 img{
-  width: 100px; 
-  }
   
-  .unoticias__desc1 {
-    font-size: 15px;
-    padding: 5px;
-    width: 90%;
-    justify-self: center;
-
-  }
-  .unoticias__desc2 {
-  font-size: 15px;
-  padding: 5px;
-  width: 90%;
-  justify-self: center;
-  }
-
  /*  index.html*/
 /*  Nosotros.html*/
      #midnosotros{

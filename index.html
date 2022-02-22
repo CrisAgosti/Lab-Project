@@ -21,7 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
+                <ul class="navhover navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#" style="color:#fff; font-size: 20px;">INICIO</a>
                   </li>
@@ -42,44 +42,45 @@
             </div>
           </nav>
     </header>
-    <main>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/pcr1.png" class="d-block w-100" alt="...">
+    <main class="fondo">
+          <div class="container-fluid p-0">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/pcr1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/filiacion.png" class="d-block w-100" alt="...">
+                </div>
               </div>
-              <div class="carousel-item">
-                <img src="img/filiacion.png" class="d-block w-100" alt="...">
-              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+          </div>  
         <div class="unoticias" >
             ULTIMAS NOTICIAS
         </div>
-        <section id="noticcolor">
-            <div class="unoticias__foto1">
-                <img src="img/c311-1.jpg" alt="cobas">
-            </div>
-            <div class="unoticias__foto2">  
-                <img src="img/osdepym.webp" alt="osdepym">
-            </div>
-            <div class="unoticias__desc1">
-                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, consectetur reprehenderit animi consequuntur veritatis, temporibus enim rem tempore, provident ducimus porro. Dolor fugiat voluptas obcaecati nihil corporis quis eaque aliquam.. 
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, consectetur reprehenderit animi consequuntur veritatis temporibus enim rem tempore, provident ducimus porro. Dolor fugiat voluptas</div>
-            </div>
-            <div class="unoticias__desc2">
-                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, consectetur reprehenderit animi consequuntur veritatis, temporibus enim rem tempore, provident ducimus porro. Dolor fugiat voluptas obcaecati nihil corporis quis eaque aliquam.
+        <section class=" fondo container-fluid">
+            <div class="text-center mt-5">
+              <div class="row">
+                  <div class="col md-4 col lg-4">
+                      <img src="img/c311-1.jpg" alt="cobas" class="noticia-imagen img-fluid">
+                      <div class="noticias-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, consectetur reprehenderit animi consequuntur veritatis, temporibus enim rem tempore, provident ducimus porro. Dolor fugiat voluptas obcaecati nihil corporis quis eaque aliquam.. 
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, consectetur reprehenderit animi consequuntur veritatis temporibus enim rem tempore, provident ducimus porro. Dolor fugiat voluptas</div>
+                  </div>
+                  <div class="col md-4 col lg-4">  
+                      <img src="img/osdepym.webp" alt="osdepym" class=" noticia-imagen img-fluid">
+                      <div class="noticias-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, consectetur reprehenderit animi consequuntur veritatis, temporibus enim rem tempore, provident ducimus porro. Dolor fugiat voluptas obcaecati nihil corporis quis eaque aliquam.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, consectetur reprehenderit animi consequuntur veritatis temporibus enim rem tempore, provident ducimus porro. Dolor fugiat voluptas</div>
+                  </div>
+              </div>
             </div>
-            
         </section>   
         <section id="redes">
             <DIV class="redes__iconos">
@@ -106,7 +107,7 @@
         </section>
     </main>
     <footer>
-        <div> 2022 ©, Todos los derechos reservados por "nombre final del projecto".</div>
+        <div> 2022 ©, Todos los derechos reservados por "LABORATORIO PARDO".</div>
     </footer>
     <script src="js/script.js"></script>
     <script src="https:/cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
