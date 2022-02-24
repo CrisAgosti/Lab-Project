@@ -1,0 +1,33 @@
+
+#fcontacto {
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(212, 230, 233) ;}
+  
+#fcontacto input {
+width: 90%;
+height: 30px;
+margin: 0.5rem;}
+  
+#fcontacto label {
+font-size: 20px;
+}
+    
+.fcontacto__mensaje {
+overflow: scroll;
+resize: none;
+width: 35vw;
+height: 10vw;
+    }
+
+
+@media screen and (max-width: 425px){
+.fcontacto__mensaje {
+width: 45vw;
+height: 25vw;}
+}

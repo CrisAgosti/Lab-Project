@@ -1,0 +1,108 @@
+
+.nosotros {
+    display: grid;
+    grid-template-columns: 600px auto  ;
+    grid-template-rows: 100px auto;
+    grid-template-areas: "imagen titulo"
+                         "imagen texto";
+    background-color: rgb(212, 230, 233);
+    height: 750px;
+    width: fit-content;
+  &__imagen {
+    grid-area: imagen;
+    width: 500px;
+    align-self: center;
+    justify-self: center;
+    padding-bottom: 50px;}
+  &__titulo {
+    grid-area: titulo;
+    align-self: center;
+    font-size:  50px;
+    font-family:sans-serif;
+    color: teal;
+  padding-top: 50px;}
+  &__texto {
+    grid-area: texto;
+    justify-self:flex-start ;
+    width: 75%; 
+    font-family: 'Times New Roman', Times, serif;}}
+
+@media screen and (max-width: 1440px){
+.nosotros__texto {
+                grid-area: texto;
+                font-size: 20px;}
+}
+            
+@media screen and (max-width: 1024px){
+.nosotros{
+        grid-template-columns: 400px 1fr;
+        height: 500px;
+        &__imagen {
+            grid-area: imagen;
+            width: 400px;
+            padding: 10px;
+            padding-bottom: 70px;}
+        &__titulo {
+            grid-area: titulo;
+            font-size: 30px;
+            padding: 10px;
+            align-self: flex-end;}
+        &__texto {
+            grid-area: texto;
+            font-size: 100%;
+            justify-self: flex-start ;
+            width: 90%;
+            padding-left: 10px;}}
+            }  
+ 
+@media screen and (max-width: 768px){
+.nosotros{
+    display: grid;
+    grid-template-columns: 1fr  ;
+    grid-template-rows: 100px auto;
+    grid-template-areas: "imagen titulo"
+                         "imagen texto";
+    background-color: rgb(212, 230, 233);
+    height: 600px;
+    width: fit-content;
+        &__imagen {
+        grid-area: imagen;
+        width: 370px;
+        padding: 30px;}
+        &__titulo {
+        grid-area: titulo;
+        font-size: 25px;
+        justify-self: center;
+        padding: 10px;
+        align-self: flex-end;}
+        &__texto {
+        grid-area: texto;
+        font-size: 100%;
+        justify-self: flex-start ;
+        width: 100%;}}
+}                              
+            
+                
+@media screen and (max-width: 425px){
+    .nosotros{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 100px auto;
+        grid-template-areas: "imagen titulo"
+                              "imagen texto"
+          ;
+        background-color: rgb(212, 230, 233);
+        height: 600px;
+        width: fit-content;
+        &__imagen {
+          display: none;
+        }
+        &__titulo {
+           font-size: 25px;
+          justify-self: center;}
+        &__texto {
+          font-size: 80%;
+          justify-self: center ;}
+        }}
+                        
+                            
