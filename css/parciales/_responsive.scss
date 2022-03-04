@@ -1,0 +1,180 @@
+
+
+@media screen and (max-width: 1440px){
+    .nosotros__texto {
+        grid-area: texto;
+        font-size: 20px;}
+    }
+                
+@media screen and (max-width: 1024px){
+.nosotros{
+    grid-template-columns: 400px 1fr;
+    height: 500px;
+    &__imagen {
+        grid-area: imagen;
+        width: 400px;
+        padding: 10px;
+        padding-bottom: 70px;}
+    &__titulo {
+        grid-area: titulo;
+        font-size: 30px;
+         padding: 10px;
+        align-self: flex-end;}
+    &__texto {
+        grid-area: texto;
+        font-size: 100%;
+        justify-self: flex-start ;
+        width: 90%;
+        padding-left: 10px;}}
+        margin-top: 5px;
+        }  
+
+ @media screen and (max-width: 768px){ 
+    
+    .noticia-imagen {
+      width: 250px;
+    }
+
+    .nosotros{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 100px auto;
+        grid-template-areas: "imagen titulo"
+                             "imagen texto";
+        height: 600px;
+        width: fit-content;
+            &__imagen {
+            grid-area: imagen;
+            width: 370px;
+            padding: 30px;}
+            &__titulo {
+            grid-area: titulo;
+            font-size: 25px;
+            justify-self: center;
+            padding: 10px;
+            align-self: flex-end;}
+            &__texto {
+            grid-area: texto;
+            font-size: 100%;
+            justify-self: flex-start ;
+            width: 100%;}}
+    
+
+ .redes {
+    
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 250px 350px;
+     }
+    .redes__fb {
+    width: 200px;
+    
+    }            
+    footer {
+    font-size: 15px;  
+    height: 10px;
+    }
+    .redes__iconos{
+        font-size: 30px;
+    }
+    .redes__lista{
+        font-size: 25px;
+          
+        } 
+.noticias-texto {
+padding: 50px;}}                          
+
+
+
+
+@media screen and (max-width: 425px){
+
+ .noticia-imagen {
+  width: 200px;
+}
+
+.nosotros{
+    display: grid;
+    grid-template-columns: 1fr  ;
+    grid-template-rows: 100px auto;
+    grid-template-areas: "imagen titulo"
+                          "imagen texto"
+      ;
+    height: 600px;
+    width: fit-content;
+    &__imagen {
+      display: none;
+    }
+    &__titulo {
+       font-size: 25px;
+      justify-self: center;}
+    &__texto {
+      font-size: 90%;
+      justify-self: center ;}
+    }
+
+
+.fcontacto__mensaje {
+    width: 45vw;
+    height: 25vw;}
+        
+
+  
+    .titulo__telefonolab{
+        font-size: 10px;
+      }
+     
+            
+   .redes {
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 300px 200px;
+  }
+  
+  .redes__iconos{
+    font-size: 25px;
+    align-self: center;
+    padding: 20px;
+  
+  }
+  
+  .redes__iconos img{
+   width: 75px;
+  }
+  
+  .redes__lista{
+  font-size: 25px;
+    
+  }
+  
+  .redes__lista li{
+    font-size: 10px;
+    padding-top: 8px;
+  }
+  
+  
+  .redes__fb {
+  width: 200px;
+  
+  }
+  
+ .redes__mapa{
+   display: none;
+     }
+    
+  
+  
+  footer {
+  font-size: 10px;  
+  height: 10px;
+  }}
+                    
+                        
+
+
+
+
+
+
+
+
+
+

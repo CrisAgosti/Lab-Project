@@ -1,2 +1,22 @@
+@import "../css/parciales/general";
+@import "../css/parciales/index";
 @import "../css/parciales/nosotros";
 @import "../css/parciales/contacto";
+@import "../css/parciales/responsive";
+
+$colores: (
+    "blanco": #FBFCFC,     
+    "claro":  #94cfcf,
+);
+ 
+@each $color, $valor in $colores {
+    .fondo--#{$color}{
+        background-color: $valor;
+    }
+}
+
+@mixin fuentes ($colfuente, $tamfuente){
+    color: $colfuente;
+    font-size: $tamfuente;
+}
+    

@@ -1,0 +1,23 @@
+.unoticias {
+    
+    display: flex ;
+    align-self: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 30px;
+    background: rgb(8,47,46);
+    background: linear-gradient(90deg, rgba(8,47,46,1) 0%, rgba(0,128,128,1) 40%, rgba(94,219,219,0.98) 100%);
+    color: #fff;
+    width: 100%;
+  }
+
+ .noticias-texto {
+  padding: 50px;
+  
+ }
+
+ .noticia-imagen {
+   width: 300px;
+ }
+
+

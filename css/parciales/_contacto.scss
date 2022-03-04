@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(212, 230, 233) ;}
+    
   
 #fcontacto input {
 width: 90%;
@@ -23,11 +23,5 @@ overflow: scroll;
 resize: none;
 width: 35vw;
 height: 10vw;
-    }
+    }}
 
-
-@media screen and (max-width: 425px){
-.fcontacto__mensaje {
-width: 45vw;
-height: 25vw;}
-}
