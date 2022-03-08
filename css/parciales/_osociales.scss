@@ -1,0 +1,11 @@
+.osociales-boton{
+    border-color: #94cfcf;
+    border-style: solid;
+    font-size: 20px;
+    margin-bottom: 50px;
+    & a{
+        color: black;}
+    & :hover {
+        background-color:#94cfcf;
+        transition: 0.3s ease;}}
+
