@@ -279,6 +279,8 @@ li {
     font-size: 30px; }
   .redes__lista {
     font-size: 25px; }
+  .navbar-brand img {
+    width: 250px; }
   .noticias-texto {
     padding: 50px; } }
 
@@ -331,6 +333,10 @@ li {
     font-size: 14px; }
   .accordion-body {
     font-size: 12px; }
+  .navbar-brand img {
+    width: 200px; }
+  .titulo__telefonolab {
+    font-size: 9px; }
   footer {
     font-size: 10px;
     height: 10px; } }
