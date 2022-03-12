@@ -91,8 +91,7 @@ li {
 
 .redes {
   display: grid;
-  grid-template-areas: "redes info"
- "peec mapa";
+  grid-template-areas: "redes info" "peec mapa";
   grid-template-columns: 500px 1fr;
   grid-template-rows: 300px 350px;
   width: 100%; }
@@ -163,8 +162,7 @@ li {
   display: grid;
   grid-template-columns: 600px auto;
   grid-template-rows: 100px auto;
-  grid-template-areas: "imagen titulo"
- "imagen texto";
+  grid-template-areas: "imagen titulo" "imagen texto";
   height: 750px;
   width: fit-content; }
   .nosotros__imagen {
@@ -251,8 +249,7 @@ li {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 100px auto;
-    grid-template-areas: "imagen titulo"
- "imagen texto";
+    grid-template-areas: "imagen titulo" "imagen texto";
     height: 600px;
     width: fit-content; }
     .nosotros__imagen {
@@ -297,8 +294,7 @@ li {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 100px auto;
-    grid-template-areas: "imagen titulo"
- "imagen texto";
+    grid-template-areas: "imagen titulo" "imagen texto";
     height: 600px;
     width: fit-content; }
     .nosotros__imagen {
