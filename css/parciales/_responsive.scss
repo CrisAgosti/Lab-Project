@@ -61,32 +61,42 @@
     
 
  .redes {
-    
     grid-template-columns: 300px 1fr;
     grid-template-rows: 250px 350px;
-     }
-    .redes__fb {
-    width: 200px;
+    &__fb {
+    width: 200px;}            
+    &__iconos{
+        font-size: 30px;}
+    &__lista{
+        font-size: 25px; } }
+      
     
-    }            
-    footer {
-    font-size: 15px;  
-    height: 10px;
-    }
-    .redes__iconos{
-        font-size: 30px;
-    }
-    .redes__lista{
-        font-size: 25px;
-          
-        } 
-    .navbar-brand img {
-      width: 250px;
-    }
+.navbar-brand img {
+  width: 250px;
+ }
+
+footer {
+  height: 10px;
+  }
+
 .noticias-texto {
 padding: 50px;}}                          
 
 
+
+@media screen and (max-width: 600px){
+.redes__mapa{
+  display: none;
+}
+.unoticias {
+  height: 50px;
+  align-items: center;}
+
+.titulo__telefonolab {
+  font-size: 11px;
+  padding-left: 10px;
+ 
+}}
 
 
 @media screen and (max-width: 425px){
@@ -132,17 +142,18 @@ padding: 50px;}}
             
    .redes {
     grid-template-columns: 200px 1fr;
-    grid-template-rows: 300px 200px;
+    grid-template-rows: 290px 200px;
     &__iconos{
-    font-size: 25px;
+    font-size: 22px;
     align-self: center;
-    padding: 20px;}
+    padding: 18px;}
     &__iconos img{
-     width: 75px;}
+     width: 65px;}
+     padding-right: 20px;
     &__lista{
-    font-size: 25px;
+    font-size: 22px;
     }
-    &__lista li{
+    &__lista a{
     font-size: 10px;
     padding-top: 8px;}
     &__fb {
@@ -150,6 +161,8 @@ padding: 50px;}}
     &__mapa{
     display: none;}}
     
+
+
   .indtexto{
    padding: 22px;
    font-size: 14px;}
@@ -166,11 +179,21 @@ padding: 50px;}}
     font-size: 9px;
   }
   footer {
-  font-size: 10px;  
   height: 10px;
+  }
+  .foot {
+    font-size: 10px;
   }}
+
+
                     
-                        
+@media screen and (max-width: 375px) {  
+.redes__lista li a   {
+  font-size: 12px;
+  
+}
+}
+
 
 
 
