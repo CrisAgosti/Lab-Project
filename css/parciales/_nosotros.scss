@@ -17,12 +17,12 @@
     grid-area: titulo;
     align-self: center;
     font-size:  50px;
-    font-family:sans-serif;
+    font-family:'roboto', sans-serif;
     color: teal;
   padding-top: 50px;}
   &__texto {
     grid-area: texto;
     justify-self:flex-start ;
     width: 75%; 
-    font-family: 'Times New Roman', Times, serif;}}
+    font-family:'roboto', sans-serif;}}
 

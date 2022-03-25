@@ -29,7 +29,7 @@
         margin-top: 5px;
         }  
 
- @media screen and (max-width: 768px){ 
+@media screen and (max-width: 768px){ 
     
     .noticia-imagen {
       width: 250px;
@@ -128,12 +128,6 @@ padding: 50px;}}
       justify-self: center ;}
     }
 
-
-.fcontacto__mensaje {
-    width: 45vw;
-    height: 25vw;}
-        
-
   
     .titulo__telefonolab{
         font-size: 10px;
@@ -183,16 +177,48 @@ padding: 50px;}}
   }
   .foot {
     font-size: 10px;
-  }}
+  }
+
+.contact_form{  
+  width: 100%; 
+  margin-top: 0px; 
+  margin-bottom: 0px;
+
+  input{ 
+  width: 350px; 
+  height: 40px;} 
+  textarea{
+  width: 350px; 
+  height: 150px;} 
+  button{
+  width: 350px;   
+  cursor: pointer;}
+  button p{
+  font-size: 12px; }
+ .aviso{
+  font-size: 12px; }
+  h2{
+  font-size: 23px;}
+  p{
+  font-size: 12px;}}
+}
 
 
                     
 @media screen and (max-width: 375px) {  
 .redes__lista li a   {
-  font-size: 12px;
-  
-}
-}
+  font-size: 12px;}
+.contact_form{  
+  width: 100%; 
+  input{ 
+    width: 315px; 
+    height: 40px;} 
+  textarea{
+    width: 315px; 
+    height: 150px;} 
+  button{
+    width: 315px;}}
+  }
 
 
 

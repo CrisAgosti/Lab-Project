@@ -1,11 +1,15 @@
 .osociales-boton{
-    border-color: #94cfcf;
-    border-style: solid;
-    font-size: 20px;
-    margin-bottom: 50px;
+    height: 45px; 
+    width: 120px;   
+    margin-bottom: 20px; 
+    background-color: teal;     
+    border-color: teal; 
+    border-style: solid; 
+    border-radius: 1;
     & a{
-        color: black;}
+        font-family: 'roboto',sans-serif;
+        color: white;}
     & :hover {
         background-color:#94cfcf;
-        transition: 0.3s ease;}}
-
+        transition: 0.3s ease;}
+    }

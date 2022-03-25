@@ -1,7 +1,8 @@
 
-@mixin fuentes ($colfuente, $tamfuente){
+@mixin fuentes ($colfuente, $tamfuente, $tipfuente){
         color: $colfuente;
         font-size: $tamfuente;
+        font-family: $tipfuente;
     }
         
 
@@ -37,13 +38,12 @@
       animation: carga 1.5s infinite ease-in-out;
     }
   
-    .carga{
-      @include fuentes(teal,14px)  
+    .carga {
+      color: teal;
+      font-size: 14px;
       position: relative;
-      animation-delay: -0.15s;
-  
-  
-    }
+      animation-delay: -0.15s; }
+    
   
     .carga:before,
     .carga:after{
@@ -93,7 +93,7 @@
   position: absolute;
   top: 0px;
   left: 64%;
-  @include fuentes(#fff,15px)
+  @include fuentes(#fff,15px,roboto)
   }
   
   .portada {
@@ -132,7 +132,7 @@
     .redes__iconos{
       padding-top: 20px;
       grid-area: redes; 
-      @include fuentes(teal,35px)
+      @include fuentes(teal,35px,roboto)
     
     }
   .redes__iconos img{
@@ -146,11 +146,11 @@
       grid-area: info;
       justify-self: flex-start;
       align-self: center;
-      @include fuentes(teal,30px)
+      @include fuentes(teal,30px,roboto)
     }
   
     .redes__lista li a{
-      @include fuentes(#fff,20px)
+      @include fuentes(#fff,20px,roboto)
       padding-top: 10px;
     }
       
@@ -179,11 +179,15 @@
 .indtexto{
     padding: 25px;
     text-align: center;
+    font-family: 'roboto',sans-serif;
 }
 
 .accordion-body {
   font-size: 14px;
+  font-family: 'roboto',sans-serif;
 }
 .foot{
   font-size: 14px;
+  font-family: 'roboto',sans-serif;
 }
+

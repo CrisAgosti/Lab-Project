@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 * {
   margin: 0px;
   padding: 0px;
@@ -71,7 +72,8 @@ footer div {
   top: 0px;
   left: 64%;
   color: #fff;
-  font-size: 15px; }
+  font-size: 15px;
+  font-family: roboto; }
 
 .portada {
   margin: 0 auto;
@@ -100,7 +102,8 @@ li {
   padding-top: 20px;
   grid-area: redes;
   color: teal;
-  font-size: 35px; }
+  font-size: 35px;
+  font-family: roboto; }
 
 .redes__iconos img {
   padding: 20px;
@@ -111,11 +114,13 @@ li {
   justify-self: flex-start;
   align-self: center;
   color: teal;
-  font-size: 30px; }
+  font-size: 30px;
+  font-family: roboto; }
 
 .redes__lista li a {
   color: #fff;
   font-size: 20px;
+  font-family: roboto;
   padding-top: 10px; }
 
 .redes__lista li:hover {
@@ -136,13 +141,16 @@ li {
 
 .indtexto {
   padding: 25px;
-  text-align: center; }
+  text-align: center;
+  font-family: 'roboto',sans-serif; }
 
 .accordion-body {
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: 'roboto',sans-serif; }
 
 .foot {
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: 'roboto',sans-serif; }
 
 .unoticias {
   display: flex;
@@ -150,13 +158,15 @@ li {
   justify-content: center;
   padding: 50px;
   font-size: 30px;
+  font-family: 'roboto', sans-serif;
   background: #082f2e;
   background: linear-gradient(90deg, #082f2e 0%, teal 40%, rgba(94, 219, 219, 0.98) 100%);
   color: #fff;
   width: 100%; }
 
 .noticias-texto {
-  padding: 50px; }
+  padding: 50px;
+  font-family: 'roboto', sans-serif; }
 
 .noticia-imagen {
   width: 300px; }
@@ -178,42 +188,101 @@ li {
     grid-area: titulo;
     align-self: center;
     font-size: 50px;
-    font-family: sans-serif;
+    font-family: 'roboto', sans-serif;
     color: teal;
     padding-top: 50px; }
   .nosotros__texto {
     grid-area: texto;
     justify-self: flex-start;
     width: 75%;
-    font-family: 'Times New Roman', Times, serif; }
+    font-family: 'roboto', sans-serif; }
 
-#fcontacto {
-  width: 100%;
-  padding: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
-  #fcontacto #fcontacto input {
-    width: 90%;
-    height: 30px;
-    margin: 0.5rem; }
-  #fcontacto #fcontacto label {
-    font-size: 20px; }
-  #fcontacto .fcontacto__mensaje {
-    overflow: scroll;
-    resize: none;
-    width: 35vw;
-    height: 10vw; }
+.contact_form {
+  width: 445px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px; }
+  .contact_form input {
+    background-color: #fbfbfb;
+    width: 380px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: teal;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px; }
+  .contact_form textarea {
+    background-color: #fbfbfb;
+    width: 380px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: teal;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px; }
+  .contact_form label {
+    display: block;
+    float: center; }
+  .contact_form button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: teal;
+    border-color: teal;
+    border-style: solid;
+    border-radius: 10px;
+    width: 380px;
+    cursor: pointer; }
+  .contact_form button p {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'roboto',sans-serif; }
+  .contact_form span {
+    color: teal; }
+  .contact_form .aviso {
+    font-size: 15px;
+    font-family: 'roboto',sans-serif; }
+  .contact_form h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: teal;
+    font-family: 'roboto',sans-serif; }
+  .contact_form p {
+    font-size: 14px;
+    font-family: 'roboto',sans-serif;
+    color: #0e0e0e; }
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid teal; }
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid teal; }
 
 .osociales-boton {
-  border-color: #94cfcf;
+  height: 45px;
+  width: 120px;
+  margin-bottom: 20px;
+  background-color: teal;
+  border-color: teal;
   border-style: solid;
-  font-size: 20px;
-  margin-bottom: 50px; }
+  border-radius: 1; }
   .osociales-boton a {
-    color: black; }
+    font-family: 'roboto',sans-serif;
+    color: white; }
   .osociales-boton :hover {
     background-color: #94cfcf;
     transition: 0.3s ease; }
@@ -317,9 +386,6 @@ li {
     .nosotros__texto {
       font-size: 90%;
       justify-self: center; }
-  .fcontacto__mensaje {
-    width: 45vw;
-    height: 25vw; }
   .titulo__telefonolab {
     font-size: 10px; }
   .redes {
@@ -353,11 +419,42 @@ li {
   footer {
     height: 10px; }
   .foot {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .contact_form {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+    .contact_form input {
+      width: 350px;
+      height: 40px; }
+    .contact_form textarea {
+      width: 350px;
+      height: 150px; }
+    .contact_form button {
+      width: 350px;
+      cursor: pointer; }
+    .contact_form button p {
+      font-size: 12px; }
+    .contact_form .aviso {
+      font-size: 12px; }
+    .contact_form h2 {
+      font-size: 23px; }
+    .contact_form p {
+      font-size: 12px; } }
 
 @media screen and (max-width: 375px) {
   .redes__lista li a {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .contact_form {
+    width: 100%; }
+    .contact_form input {
+      width: 315px;
+      height: 40px; }
+    .contact_form textarea {
+      width: 315px;
+      height: 150px; }
+    .contact_form button {
+      width: 315px; } }
 
 .fondo--blanco {
   background-color: #FBFCFC; }

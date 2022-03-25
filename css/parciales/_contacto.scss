@@ -1,27 +1,80 @@
 
-#fcontacto {
-    width: 100%;
-    padding: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  
-  
-#fcontacto input {
-width: 90%;
-height: 30px;
-margin: 0.5rem;}
- 
-#fcontacto label {
-font-size: 20px;
-}
-    
-.fcontacto__mensaje {
-overflow: scroll;
-resize: none;
-width: 35vw;
-height: 10vw;
-    }}
 
+.contact_form{  
+    width: 445px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+    input{
+    background-color: #fbfbfb; 
+    width: 380px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: teal; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; }
+    textarea{
+    background-color: #fbfbfb; 
+    width: 380px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: teal; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; }
+    label{
+    display: block; 
+    float: center;  }
+    button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: teal; 
+    border-color: teal; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 380px;   
+    cursor: pointer;}
+    button p{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'roboto',sans-serif; }
+    span{
+    color: teal; }
+    .aviso{
+    font-size: 15px;
+    font-family: 'roboto',sans-serif; }
+    h2{
+    font-size: 30px;  
+    padding-bottom: 20px; 
+    color: teal;
+    font-family: 'roboto',sans-serif;}
+    p{
+    font-size: 14px;
+    font-family: 'roboto',sans-serif; 
+    color: #0e0e0e; }}
+  
+    .formulario input:focus{
+    outline:0;
+    border: 1px solid teal;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid teal;
+  }
+  
